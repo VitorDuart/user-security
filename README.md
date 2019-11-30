@@ -2,5 +2,5 @@
 
 Fragmento de uma aplicação web.
 
-Objetivo dessa aplicação é fornecer um meio teste 
+Objetivo dessa aplicação é fornecer um meio de teste 
 para firewall no ubuntu.
