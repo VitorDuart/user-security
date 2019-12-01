@@ -3,24 +3,24 @@
         private $username;
         private $password;
 
-        function __construct($username, $password){
+        public function __construct($username, $password){
             $this->username = $username;
             $this->password = $password;
         }
 
-        function getUsername(){
+        public function getUsername(){
             return $this->username;
         }
 
-        function setUsername($username){
+        public function setUsername($username){
             $this->username = $username;
         }
 
-        function getPassword(){
+        public function getPassword(){
             return $this->password;
         }
 
-        function setPassword($password){
+        public function setPassword($password){
             $this->password = $password;
         }
     }
