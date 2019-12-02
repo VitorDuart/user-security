@@ -1,0 +1,61 @@
+.box{
+    display: flex;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 448px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 45px 30px 30px;
+    padding: 5px 5px 0px 5px;
+}
+
+.h3{
+    margin: auto;
+}
+
+.image{
+    margin-top: 50px;
+    margin-left: 187px;
+    margin-right: 187px;
+    margin-bottom: -40px;
+}
+
+.box3{
+    display: flex;
+}   
+
+.input{
+    width: 362px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+#button{
+    width: 88px;
+    height: 36px;
+    margin-left: 201px;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    background-color: #1a73e8;
+    color: white ;
+}
+
+#link{
+    margin-top: 5px;
+}

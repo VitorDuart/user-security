@@ -8,6 +8,12 @@
 
     $new = new User($username, $password);
     $data = new UserData();
-    $data->store($new);
-    header("Location:../index.html");
+    $fetch = $data->store($new);
+    
+
+    if($fetch == 1)
+        header("Location:../index.php");
+    else
+        header("Location:../pages/cadastropage.php");
+    
 ?>

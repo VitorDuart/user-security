@@ -41,6 +41,8 @@
             $password = $user->getPassword();
             $sql = "insert into usuario (username, password) values('$username', '$password')";
             $this->manager->query($sql);
+
+            return $this->manager->affected_rows;
         }
 
         public function list(){
