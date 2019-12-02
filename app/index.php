@@ -11,7 +11,7 @@
         <img class="image" src="images/google.png" width="74" height="24">
             <h3 class="h3">Login</h3>
             <form class="box1" action="./controllers/login.php" method="POST">
-                <input class="input" placeholder="Name" type="text" name="username">
+                <input class="input" placeholder="Username" type="text" name="username">
                 <input class="input" placeholder="Password" type="text" name="password">
                 <a href="">Esqueceu a senha?</a>
                 
@@ -25,5 +25,5 @@
         </div>
     </div>
 </body>
-</html>
+</html> 
 
